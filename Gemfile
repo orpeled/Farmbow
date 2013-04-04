@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 
+gem 'twitter-bootstrap-rails', '2.2.6'
+gem 'bootstrap-sass'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -20,7 +22,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '1.0.3'
-  gem 'twitter-bootstrap-rails', '2.2.6'
+
   gem "therubyracer"
   gem "less-rails"
 

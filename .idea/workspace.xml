@@ -2,705 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d44b4116-3122-491c-8619-3dd428f1f805" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-grey3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-k10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-k20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-repeat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/glyphicons-mini-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/glyphicons-mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/glyphicons-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/green/glyphicons-mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/green/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/amazon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/blogger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/deviantart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/dropbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/evernote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/forrst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/jolicloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/last-fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/picasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/pintrest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/spotify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/stumbleupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/xing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/aim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/blogger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/cargo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/delicious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/deviantart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/digg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/dopplr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/ember.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/evernote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/flickr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/forrst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/gowalla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/grooveshark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/html5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/icloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/lastfm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/metacafe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/mixx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/myspace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/netvibes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/newsvine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/orkut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/picasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/plurk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/posterous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/reddit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/stumbleupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/technorati.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/yelp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/zerply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social2/zootool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/amazon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/amazon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/apple_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/apple_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/delicious_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/delicious_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/deviantart_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/deviantart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/digg_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/digg_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/dribbble_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/dribbble_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/facebook_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/facebook_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/flickr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/flickr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/html5_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/html5_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/lastfm_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/lastfm_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/linkedin_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/linkedin_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/myspace_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/myspace_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/paypal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/paypal_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/rss_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/rss_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/skype_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/skype_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/stubleupon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/stumbleupon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/tumblr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/tumblr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/twitter_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/twitter_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/vimeo_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/vimeo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/youtube_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_big/youtube_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/amazon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/amazon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/apple_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/apple_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/delicious_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/delicious_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/deviantart_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/deviantart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/digg_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/digg_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/dribbble_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/dribbble_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/facebook_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/facebook_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/flickr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/flickr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/html5_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/html5_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/lastfm_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/lastfm_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/linkedin_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/linkedin_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/myspace_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/myspace_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/paypal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/paypal_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/rss_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/rss_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/skype_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/skype_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/stubleupon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/stumbleupon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/tumblr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/tumblr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/twitter_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/twitter_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/vimeo_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/vimeo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/youtube_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/social_small/youtube_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo-footer-menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logos/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/poland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/scroll-top-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider-control-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider-control-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/desert.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/mobile_app1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/slider1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/slider2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/slider3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/slider/web_app1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/team_member.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/testimonials-left-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/testimonials-left-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/testimonials-right-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/testimonials-right-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5aa6cad03447e1259ab476b5cfa67d5f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-efca13cb209fea65fab5d024933cff6b.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-grey3-88187bcea2537d0fc9bb83ab31efe885.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-grey3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k-f1ba79b25ae8b5146959001dbc393cfd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k10-c53cb7b24019cb7e02faf50262458538.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k20-63f1b27f151a7b77aab52e6964385e0c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-k20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-repeat-c9827d2b26a16b11b52a40b2647f3c90.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-repeat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-6a4e273908b7e43d9e479d38b8ae5957.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-a0fbd98b232e7e1ef9cdaad813b26eb3.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-cb960dd1caf98c590c336232aeacf523.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-mini-ed225ee518f58a4989a7ef7f3450f5ea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-mini-white-b2c48199b9832239d9147d0599967833.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-mini-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-white-62fb37ec8a9ef5c469397fac63dcd50c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/green/glyphicons-331867dee309c05ab4716929634588b4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/green/glyphicons-mini-83cfa4a8bb7225da673755fbdd7a9c92.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/green/glyphicons-mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/green/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/loading-21fc9d0302a07a1ac8d696fcf4de27dd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/logo-599515dd72e3870311368d41750c1741.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/search-c018641305b2f10984cffa0c035355bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/amazon-7d21702eacc6dbceb27697abcc161bcd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/amazon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/behance-5bf33a73e23160dee185345bb68809c9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/blogger-d4dd97f61f5209b7063aa9e2627e38c0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/blogger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/deviantart-dd9e9d8b18728b6cbc0f6f36ece8e735.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/deviantart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/dribbble-ce957eba5f354f1badcc69abbbdbd707.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/dropbox-6b50ecb58c16a5c14b3aacf05218f15c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/dropbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/evernote-501b446517cb22b14c4a7ec8cd11baec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/evernote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/facebook-335c2dcbaa0e41baac59e6b194f4c8fd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/forrst-ba722259c64b5483ea4067610d187c30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/forrst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/github-64cb49fd8cefe31babce58adb67deb72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/googleplus-65a71f10ca82a13d8185eb93911602cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/jolicloud-c6411bda022f78be1e7321a6b238a7a9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/jolicloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/last-fm-f494d72dc7acb412e3972500b83e95d9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/last-fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/linkedin-48e4a37accdfe65b75668e060f6702a1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/picasa-135af2be67313af99c550d7fa8f5b63c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/picasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/pintrest-fa162786b99a61862e511ac72176728e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/pintrest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/rss-dff2b3ab9dcf84e7fc85a165bf0aa74c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/skype-31f7bac99a04799f9d17277b9c9070c7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/spotify-494baff3e9b0f6128b1d2789074c3a47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/spotify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/stumbleupon-2cf6eeba2992218a63ab4bae6396f5cb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/stumbleupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/tumblr-2ba27bee35006544a50dc71727fed62d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/twitter-f62abb309307df326b8a610cc55cb02e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/vimeo-8e968f2aff48d464fbd2c792dc32c120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/wordpress-ced83f9a6df45cc6ee006c9dce7b0a92.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/xing-e766ddfdafe2a62b58717c52ef9bf8f0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/xing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/yahoo-bb4b9a4de4dff4fc61aed15e79579bb3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/youtube-c1cddd6db4c74ad92a3991a7b1ec7443.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/aim-aa1f39554411571427804d5b5d37b39c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/aim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/apple-050ec42e58580ad80ee2e0d9bb10c865.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/behance-a51380b0240e23ed8280867e31f5567e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/blogger-3f34be8707d4ab28ceb1a94b160b01f3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/blogger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/cargo-f6b72b757f6af2561fb6c803712e2e7b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/cargo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/delicious-8e63567276457d1902a8ff97dec45be6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/delicious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/deviantart-e477ff8e02e060e98639025636b12ef4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/deviantart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/digg-2d49ec222e0cd829bfa8ba1f5d177c97.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/digg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/dopplr-9bae383563bc76bd85ec5952d3292910.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/dopplr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/dribbble-1446e0edf9f22d65a73aed94e58d3860.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/ember-c7f8a799e5d394a867a32b5720092380.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/ember.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/evernote-b19756a4c0ff2f028512b0543af9c657.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/evernote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/facebook-478c90f6cae317666597e7f6392927c8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/flickr-821eefa16bf38d0c1367a4d30d9c28e1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/flickr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/forrst-c690cb260a5fb27570601fee00679103.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/forrst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/github-6eeee52f92f9c41a02fd04d27255e7d9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/google-211eda96421b660c8e8a0f8cf0b8cf36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/googleplus-aaab32ee0e12912782f521a2fe0a613f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/gowalla-856e46ae64b508f357192888f0fb770b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/gowalla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/grooveshark-fbb8f7ea3741f400b7f9fa51788fd7c9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/grooveshark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/html5-500985d0dcf454dca490d71b6c839513.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/html5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/icloud-37e9dbc99b02cfd4d6eddb5ac5435173.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/icloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/lastfm-639883eed3ec57248de41a7a13dadca4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/lastfm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/linkedin-80322833f955c80c7e71cd92bd749032.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/metacafe-2fe0b397fa6e6e3656cdc50e5fc42d9d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/metacafe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/mixx-9af4349b90f7c46d15bd7f40cbc07f59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/mixx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/myspace-db6e47246e8ec7f6eb299559a0d247a8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/myspace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/netvibes-0a71a854b9844c412eeb2d875927664a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/netvibes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/newsvine-b8a38cfe01970db1a7a155db71969c77.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/newsvine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/orkut-833a49f1eea7e806b080ce319fc3ea99.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/orkut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/paypal-81a90050974cd1a18b419b7c69c5b312.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/picasa-b3010656d6c730e6f62d53a7d17feb20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/picasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/pinterest-2f9f7d15305be9277bfb3d10626276f5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/plurk-bffe8ddce67539256d089f5cb17b7d7a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/plurk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/posterous-ca3965b8e530971cf22062bfbc6a2db4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/posterous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/reddit-01fa01d3bc0a54c657edfa937e03c630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/reddit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/rss-8815527a319e5253e480a6759c7e6163.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/skype-01743bc31133a0c98df34de43d32d7d1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/stumbleupon-ab17ef71889e904be3ea59d8e119650e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/stumbleupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/technorati-d0c3ece369a341708cad68be902c8560.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/technorati.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/tumblr-c39997356e638d39cee5908ca1fed936.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/twitter-670c6655013320b8438620f7149f44ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/vimeo-267322896ed090e05605fda67740a33a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/wordpress-dc08bf39657d4da35ec3599d89dee90e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/yahoo-bcd79a49f184ec81fa6b6556fafeab25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/yelp-0d5723c9e946c6f963b50d5cee5066a7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/yelp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/youtube-c47367c86ba47a0e3bbe599c3782b233.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/zerply-a575b589fa916232b10e0d59c2ef9676.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/zerply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/zootool-2499eaecaf7a6c235ed66b7d06836999.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social2/zootool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/amazon_grey-a0a44a0fee0fd24b5d4dc4eb3b94d867.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/amazon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/amazon_white-07d55065e7e5284f7c6ec0f9df743296.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/amazon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/apple_grey-895504ee5117c15844580d7746f198b7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/apple_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/apple_white-993910c6bedde9d11b4d91d183f2c8f5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/apple_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/delicious_grey-6bd12ce6d4ae3fc96263937555591911.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/delicious_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/delicious_white-684527103a2f92581df2b83448b77c66.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/delicious_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/deviantart_grey-273423ee9f3135c634dad114f26e2a63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/deviantart_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/deviantart_white-301b3e99c9360b74ea4dda15e42e87b1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/deviantart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/digg_grey-64e8c3c0837c35839fa29287a2c51a56.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/digg_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/digg_white-6a9a73186274ad38b08065e8bc17bcd9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/digg_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/dribbble_grey-3ea854af2f91f0482b2234efe80c80dd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/dribbble_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/dribbble_white-6839441728a39d1e470f6b0d2173cd87.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/dribbble_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/facebook_grey-048210df93ea79d48c92e8a30f359b84.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/facebook_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/facebook_white-a2fc09285e770cf88ee4599f579f7923.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/facebook_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/flickr_grey-36bf018762e39f134a89ce231b0f56b0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/flickr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/flickr_white-590be6a8e3261d1d17d78a455df3596d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/flickr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/html5_grey-93a8f83d75428cd243b7f22e857f1833.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/html5_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/html5_white-e7d73079b86a175fb36a0a58953074d3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/html5_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/lastfm_grey-48c670f088c7b5516b9eaa51f053d982.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/lastfm_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/lastfm_white-5c1bce1062a962fabdcb1a2c79806912.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/lastfm_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/linkedin_grey-6a57423a24e63de49e418f115318c5b3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/linkedin_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/linkedin_white-afdacd072e58091bc9d0ffbb64aa2c0f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/linkedin_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/myspace_grey-0035b3ceecff8f9a2f21031b93c685dd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/myspace_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/myspace_white-96dee33597443be615c0edc25317f671.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/myspace_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/paypal_grey-59fc84a14003a736ae98aaf48e7ade45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/paypal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/paypal_white-7b03d9b1d1bbd6611918dae67e377c49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/paypal_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/rss_grey-bba6691c64fb0e71e9e3d8da25c09a2d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/rss_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/rss_white-267d2948bc16ccada705057dc11b82e3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/rss_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/skype_grey-ff66d1b51397e12b464c55191101fcb6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/skype_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/skype_white-0442183d196f44457e99ab3298329fea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/skype_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/stubleupon_grey-6bd5a8257f40ce64984da51517fd507d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/stubleupon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/stumbleupon_white-0483ef927cc5a76491b9b468e5f56c11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/stumbleupon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/tumblr_grey-a6eba9703ec54411c5164e4c66231536.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/tumblr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/tumblr_white-f0589680bcd9975a3e88b190373c2b4e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/tumblr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/twitter_grey-e3258de33eaf2dd674f9725042d8a29c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/twitter_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/twitter_white-f0274b272ad72129a85f2ad8e836b9a2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/twitter_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/vimeo_grey-2fbd7f50ff1c2d83cda5810d663a2488.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/vimeo_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/vimeo_white-b30d102ca43a18e95508bc42a519eb0f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/vimeo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/youtube_grey-7dec8c9b95971e5daaaaae08511a1613.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/youtube_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/youtube_white-3efc28b16b74bbc79d36220402d0e528.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_big/youtube_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/amazon_grey-55b74fa52b38f5462eb58ac07b2dbefc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/amazon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/amazon_white-c7108036b816da129c61e60cde91e843.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/amazon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/apple_grey-418f720bd3eb409105512f9cbea45d64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/apple_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/apple_white-c5995a27d8b7d947261f38cb606a0d51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/apple_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/delicious_grey-a2a9bb73291dc9c959242fd0d206c1a8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/delicious_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/delicious_white-981e3adb7a44ff1819ada9a05467bd52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/delicious_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/deviantart_grey-cca988101380631c96465c21d75c0bcc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/deviantart_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/deviantart_white-6fe2e37cdd9286c849b38ba87e5fbbd6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/deviantart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/digg_grey-5ea678e746e21a07a96c9902650d7ed3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/digg_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/digg_white-706d3d98c0cd4734aa90ec10242dbc83.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/digg_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/dribbble_grey-d04bcc1a04d40f956346939a0905a3e9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/dribbble_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/dribbble_white-e9406cc387faf95911585473cafc402f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/dribbble_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/facebook_grey-78dd76e14d6e0f776b677c0b924753bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/facebook_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/facebook_white-ae91e6682cdd3829196f0f2b8d679eb9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/facebook_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/flickr_grey-8c265317c7de39adabe177430e837d5a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/flickr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/flickr_white-f5d0a3579e0eaf754bb1422d39844e80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/flickr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/html5_grey-e983a23c44516662b5360a760b9be9ab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/html5_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/html5_white-158cc7f1e44c5c45e48e2642f5d10016.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/html5_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/lastfm_grey-4ecbac0c07f6997b81bfbdbe2b570f6e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/lastfm_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/lastfm_white-b581ba939f5727f7e055fd4d81b9f79f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/lastfm_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/linkedin_grey-3c26b8ce1730ef9dd3aa758078e7165b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/linkedin_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/linkedin_white-7cc94537aa506c7c8f74a31eeee21b5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/linkedin_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/myspace_grey-24a19926969d81f2184979bfbb8828bc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/myspace_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/myspace_white-310461666838835d13404f201d291c0e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/myspace_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/paypal_grey-e6189eac7ad69fd1997d7f82d633f5c6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/paypal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/paypal_white-8102e822fa0ad0cd54e387f44962d319.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/paypal_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/rss_grey-0cfaaf90dc143a7b93b8dc834c8b5bb0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/rss_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/rss_white-cdd2a2da3a93e2f11f3a7b0938a60065.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/rss_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/skype_grey-b9b02a85ecef5a573a5306bc4900b4b9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/skype_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/skype_white-8cd709d4483ffa91bd23e67ffec97b99.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/skype_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/stubleupon_grey-876299fa026a06661b54afcfcd1bf566.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/stubleupon_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/stumbleupon_white-b54b700508e2d92aecc3527bc5d54f1d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/stumbleupon_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/tumblr_grey-db5ad21bd7fcd62ce289a10978d8437a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/tumblr_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/tumblr_white-aee49b77f73c32537ccd64395967b897.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/tumblr_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/twitter_grey-59e7d0a2ff6eb66f19d96fc8d70e6eb9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/twitter_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/twitter_white-09335a9569ed79ab90bb80526bd74b3c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/twitter_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/vimeo_grey-97d117ca754389a6c765f4c1413d8e95.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/vimeo_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/vimeo_white-36676d1fc80a8869152ddeed1cdaddad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/vimeo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/youtube_grey-1bec164cfd2ae37be2476ad3f6ec93dd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/youtube_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/youtube_white-1ed8399ab32bec95376ecf1c1a0ea09e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/social_small/youtube_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/twitter-6ef00f637a6d98526e23f7c9fba731da.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/icons/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-9050890dc0462e57abdeb2bb069a6443.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-footer-menu-fd2eaae5fa871b9915980f95f0ac7ca4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-footer-menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/1-8c8ca1d282e34253b469bc746a89cbfb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/1-8ed35a5caba37bc0b93600900cce89a8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/10-32839bf11e7d85f6199fdc252be20269.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/10-e36b72a0a85cf17a2c49aaac34d6df56.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/11-773899800847f25414b7edb68b5ad509.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/12-2a8546e2415a3bc0b3a32f8226ba1915.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/2-2b1a46579ac080f1bcabaddeb72e38f5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/2-8a6640c678216124cbfff477699f2397.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/3-3e904b1942cbe61bf7de3a797d932197.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/3-fc15e540aba302377d90bd93775105d5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/4-9f8d904dc07c0e4c5040352f0c86e7ce.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/4-b6ca29076af3d99a9d79d694fb9d1e65.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/5-20ea5c1cd4c976c00c6bf8ac9790bbd4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/5-de0f35ce8360d7ad0f7853d3f81a48ab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/6-8cc467a788fa9f90af76fd67b86832a7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/6-dfe53dbfdf2ba638c621250241d56004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/7-3533b0dfc0c17c597a83367809d7e11f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/7-4df95f19c4ef02084ec51709f356f9cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/8-3737ff20bb08d11e46174dae4e0f016c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/8-c2c7065014cdd8ccae57b946ecadc90b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/9-1ffefe7e357e6498474e5c4ae402ed72.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/9-d57cc7f013837f0638c5bdd3cd3b3ad0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logos/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/poland-4d48fbb36d9bcd3b14aadcfa749f5d34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/poland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/scroll-top-top-8f7607d0230e6911c2a4aea383e5c9fa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/scroll-top-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider-control-left-f5f2729cbd041f99c4d0e00d506d5a23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider-control-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider-control-right-cea697f2ca17fbfb2a7afcae8ee50c63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider-control-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/desert-7b94e5bd9e0befe7a31937093b30b6f5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/desert.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/mobile_app1-2204023b2af86a42d7f4068cd33e08d1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/mobile_app1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider1-6dc74a6dc6117aad48592697b77eb9a1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider2-421e7558a1c0467016a78bf03e951cbd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider3-3362312f55ac40cfaacd91bde5999573.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slider3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/web_app1-06e21775ba45ac87836b456579f4a38b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/web_app1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/team_member-7547112c611add95089f09fa94541425.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/team_member.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-left-01-eae9426691afe2aa49b55be8188d2840.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-left-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-left-02-17302e0e27108c60da22c69c24278704.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-left-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-right-01-10faae5e7d8df84b66f56d987082fb1f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-right-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-right-02-f73cbab525b68d2af40dceb0def5bf0c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/testimonials-right-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/flexslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery-1.8.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/icons-color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/social-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5aa6cad03447e1259ab476b5cfa67d5f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-efca13cb209fea65fab5d024933cff6b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FarmBow Website.iml" afterPath="$PROJECT_DIR$/.idea/FarmBow Website.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="FarmBow Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -722,7 +27,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.43975905">
+            <state line="15" column="39" selection-start="350" selection-end="350" vertical-scroll-proportion="0.48289737">
               <folding />
             </state>
           </provider>
@@ -745,6 +50,8 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SSH_EXECUTABLE" value="NATIVE_SSH" />
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -962,7 +269,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -1289,27 +596,32 @@
       <created>1364423370200</created>
       <updated>1364423370200</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second Commit (Used to deploy)">
+      <created>1365085312710</created>
+      <updated>1365085312710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="22" width="1386" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.48507464" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.4641791" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.48208955" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27462685" sideWeight="0.6722151" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27462685" sideWeight="0.6709347" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277849" sideWeight="0.5335821" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.46119404" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.4910448" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.51268655" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.4552239" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.48507464" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.4641791" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1350,7 +662,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit (Used to deploy)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1363,6 +675,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Second Commit (Used to deploy)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1451,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.43975905">
+        <state line="15" column="39" selection-start="350" selection-end="350" vertical-scroll-proportion="0.48289737">
           <folding />
         </state>
       </provider>
