@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 
+gem 'thin', '1.5.0' #instead of webrick. removes http errors from log
+
 gem 'twitter-bootstrap-rails', '2.2.6'
 gem 'bootstrap-sass'
 # Bundle edge Rails instead:
