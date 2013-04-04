@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d44b4116-3122-491c-8619-3dd428f1f805" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FarmBow Website.iml" afterPath="$PROJECT_DIR$/.idea/FarmBow Website.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="FarmBow Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +24,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="350" selection-end="350" vertical-scroll-proportion="0.48289737">
+            <state line="18" column="30" selection-start="426" selection-end="426" vertical-scroll-proportion="0.57947683">
               <folding />
             </state>
           </provider>
@@ -600,7 +597,11 @@
       <created>1365085312710</created>
       <updated>1365085312710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit (Used to deploy)">
+      <created>1365086999479</created>
+      <updated>1365086999479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -764,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="350" selection-end="350" vertical-scroll-proportion="0.48289737">
+        <state line="18" column="30" selection-start="426" selection-end="426" vertical-scroll-proportion="0.57947683">
           <folding />
         </state>
       </provider>
