@@ -12,4 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require_tree .
+//= require bootstrap
+//= require bootstrap.min
+//= require carousel
+//= require custom
+//= require jquery.gmap.min
