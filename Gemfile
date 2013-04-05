@@ -1,17 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
+gem 'devise', '2.1.2'
 
 gem 'thin', '1.5.0' #instead of webrick. removes http errors from log
 
 gem 'twitter-bootstrap-rails', '2.2.6'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'better_errors'
-  gem 'sqlite3'
+  gem 'better_errors', '0.3.2'
+  gem 'sqlite3', '1.3.6'
 end
 
 # Gems used only for assets and not required
@@ -25,12 +26,12 @@ group :assets do
 
   gem 'uglifier', '1.0.3'
 
-  gem "therubyracer"
-  gem "less-rails"
+  gem 'therubyracer', '0.11.4'
+  gem 'less-rails', '2.3.2'
 
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.1.4'
 
 
 
