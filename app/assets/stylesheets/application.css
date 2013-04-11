@@ -10,12 +10,4 @@
  *
  *= require_self
  *= require_tree .
- *= require bootstrap
- *= require bootstrap-responsive
- *= require bootstrap_and_overrides
- *= require hover
- *= require icons-color
- *= require icons
- *= require social-icons
- *= require style
  */

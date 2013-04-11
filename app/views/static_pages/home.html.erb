@@ -1,0 +1,18 @@
+<%= render 'layouts/header' %>
+<div class="span3">
+  <div class="span2">
+  <img src="/assets/tomato.png">
+  </div>
+</div>
+<h1> Welcome to FarmBow!</h1>
+<br>
+
+
+
+<% if user_signed_in? %>
+    <h3> Showing your current plants: </h3>
+
+<% else %>
+    <h3> Please Sign in or Sign up!</h3>
+
+<% end %>
