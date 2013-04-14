@@ -1,6 +1,9 @@
 FarmBowWebsite::Application.routes.draw do
 
 
+  resources :plants
+
+
   #resources :users
 
   devise_for :users
@@ -19,7 +22,7 @@ FarmBowWebsite::Application.routes.draw do
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
-
+  #match 'get_temperature' => 'static_pages#get_temperature'
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)

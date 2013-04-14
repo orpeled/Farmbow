@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130408213328) do
+ActiveRecord::Schema.define(:version => 20130414152611) do
 
   create_table "contact_messages", :force => true do |t|
     t.string   "name"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 20130408213328) do
 
   create_table "plants", :force => true do |t|
     t.string   "name"
-    t.string   "type"
+    t.string   "type_of_plant"
     t.text     "initial_plant_info"
     t.float    "irrigation_quantity"
     t.integer  "irrigation_frequency"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(:version => 20130408213328) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.float    "current_temperature"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

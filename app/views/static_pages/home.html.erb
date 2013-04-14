@@ -1,4 +1,5 @@
 <%= render 'layouts/header' %>
+
 <div class="span3">
   <div class="span2">
   <img src="/assets/tomato.png">
@@ -10,8 +11,26 @@
 
 
 <% if user_signed_in? %>
+
+
     <h3> Showing your current plants: </h3>
 
+    <% if current_user.current_temperature != 0.0 %>
+        <h3>User Location - <%= current_user.location %>. </h3>
+        <h3>Temperature Reading - <%= current_user.current_temperature.to_s  %> degrees.   </h3>
+        <div class="progress progress-info progress-striped">
+          <div class="bar" style="width: 20%"></div>
+        </div>
+        <div class="progress progress-success progress-striped">
+          <div class="bar" style="width: 40%"></div>
+        </div>
+        <div class="progress progress-warning progress-striped">
+          <div class="bar" style="width: 60%"></div>
+        </div>
+        <div class="progress progress-danger progress-striped">
+          <div class="bar" style="width: 80%"></div>
+        </div>
+    <% end %>
 <% else %>
     <h3> Please Sign in or Sign up!</h3>
 

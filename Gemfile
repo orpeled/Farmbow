@@ -36,6 +36,8 @@ end
 
 gem 'jquery-rails', '2.1.4'
 
+# Sampling Temperature by location
+gem 'barometer'
 
 
 # To use ActiveModel has_secure_password
