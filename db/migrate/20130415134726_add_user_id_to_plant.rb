@@ -2,7 +2,7 @@ class AddUserIdToPlant < ActiveRecord::Migration
   def up
     change_table(:plants) do |t|
 
-      t.integer :user_id, :null => false, :default => ""
+      t.integer :user_id, :null => false
     end
   end
 
