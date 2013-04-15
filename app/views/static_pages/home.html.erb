@@ -31,12 +31,15 @@
                   <% end %>
                 <h3> Water Level - </h3>
                 <%= progress_bar(plant.irrigation_level.to_i, :color => 'blue', :rounded => true) %> <br>
-                <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
-                    <h4> Temperature is within safe range. </h4>
+                <% if current_user.current_temperature.nil? %>
+                    <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
                 <% else %>
-                    <h4> Temperature isn't within safe range. </h4>
+                    <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
+                        <h4> Temperature is within safe range. </h4>
+                    <% else %>
+                        <h4> Temperature isn't within safe range. </h4>
+                    <% end %>
                 <% end %>
-
             <%end%>
             </p>
         <%end%>
