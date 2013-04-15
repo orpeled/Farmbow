@@ -67,7 +67,7 @@ FarmBowWebsite::Application.configure do
       :port                 => 587,
       :domain               => "farmbowinfo",
       :user_name            => "farmbowinfo@gmail.com",
-      :password             => "farmbow123",
+      :password             => "farmbow1234",
       :authentication       => :plain,
       :enable_starttls_auto => true
   }
