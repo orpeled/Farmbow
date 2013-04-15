@@ -19,7 +19,7 @@
       <%= content_tag(:div, value, class: "alert alert-#{key}") %>
   <% end %>
   <% if user_signed_in? %>
-    Logged in as <strong><%= current_user.email %></strong>.
+    Logged in as <strong><%= current_user.name.nil? ? current_user.email : current_user.name %></strong>.
   <% end %>
   <%= yield %>
 </div>

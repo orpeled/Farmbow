@@ -25,6 +25,9 @@ class PlantsController < ApplicationController
   # GET /plants/new.json
   def new
     @plant = Plant.new
+    @plant.user_id= current_user.id
+    @plant.save!
+
 
     respond_to do |format|
       format.html # new.html.erb

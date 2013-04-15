@@ -39,6 +39,9 @@ gem 'jquery-rails', '2.1.4'
 # Sampling Temperature by location
 gem 'barometer'
 
+# Progress Bar
+gem 'css3-progress-bar-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

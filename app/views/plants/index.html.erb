@@ -20,6 +20,7 @@
       <th><%= model_class.human_attribute_name(:safe_temp_max) %></th>
       <th><%= model_class.human_attribute_name(:sun_level) %></th>
       <th><%= model_class.human_attribute_name(:sun_info) %></th>
+      <th><%= model_class.human_attribute_name(:irrigation_level_updated_at) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -42,6 +43,7 @@
         <td><%= plant.safe_temp_max %></td>
         <td><%= plant.sun_level %></td>
         <td><%= plant.sun_info %></td>
+        <td><%= plant.irrigation_level_updated_at %></td>
         <td><%=l plant.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

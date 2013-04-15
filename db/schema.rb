@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130414152611) do
+ActiveRecord::Schema.define(:version => 20130415134726) do
 
   create_table "contact_messages", :force => true do |t|
     t.string   "name"
@@ -37,8 +37,10 @@ ActiveRecord::Schema.define(:version => 20130414152611) do
     t.float    "safe_temp_max"
     t.float    "sun_level"
     t.text     "sun_info"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
+    t.datetime "created_at",                                                     :null => false
+    t.datetime "updated_at",                                                     :null => false
+    t.datetime "irrigation_level_updated_at", :default => '2013-04-15 12:20:09', :null => false
+    t.integer  "user_id",                     :default => 0,                     :null => false
   end
 
   create_table "users", :force => true do |t|

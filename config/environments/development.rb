@@ -36,6 +36,15 @@ FarmBowWebsite::Application.configure do
   config.assets.debug = true
   #config.serve_static_assets = false
 
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "farmbowinfo",
+      :user_name            => "farmbowinfo@gmail.com",
+      :password             => "zellfarmbow123",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+  }
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 

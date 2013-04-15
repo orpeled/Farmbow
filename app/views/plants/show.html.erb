@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
   <dd><%= @plant.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:type_of_plant) %>:</strong></dt>
-  <dd><%= @plant.type %></dd>
+  <dd><%= @plant.type_of_plant %></dd>
   <dt><strong><%= model_class.human_attribute_name(:initial_plant_info) %>:</strong></dt>
   <dd><%= @plant.initial_plant_info %></dd>
   <dt><strong><%= model_class.human_attribute_name(:irrigation_quantity) %>:</strong></dt>
@@ -32,6 +32,8 @@
   <dd><%= @plant.sun_level %></dd>
   <dt><strong><%= model_class.human_attribute_name(:sun_info) %>:</strong></dt>
   <dd><%= @plant.sun_info %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:irrigation_level_updated_at) %>:</strong></dt>
+  <dd><%= @plant.irrigation_level_updated_at %></dd>
 </dl>
 
 <div class="form-actions">
