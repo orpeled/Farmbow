@@ -25,7 +25,22 @@ class PlantsController < ApplicationController
   # GET /plants/new.json
   def new
     @plant = Plant.new
+
+    # As requested, populating fields so the user will only have to input the plant type and name.
     @plant.user_id= current_user.id
+    @plant.fertilizer_frequency=0
+    @plant.fertilizer_quantity=0
+    @plant.initial_plant_info="Initial info"
+    @plant.irrigation_frequency=2
+    @plant.irrigation_info="Irrigation info"
+    @plant.irrigation_level=100
+    @plant.irrigation_quantity=100
+    @plant.safe_temp_min=70
+    @plant.safe_temp_max=80
+    @plant.sun_info="Sun is fun"
+    @plant.sun_level=100
+    @plant.temperature_info="Temp Info"
+    @plant.irrigation_level_updated_at= DateTime.now
     @plant.save!
 
 
@@ -44,7 +59,7 @@ class PlantsController < ApplicationController
   # POST /plants.json
   def create
     @plant = Plant.new(params[:plant])
-
+     sleep 3
     respond_to do |format|
       if @plant.save
         format.html { redirect_to @plant, notice: 'Plant was successfully created.' }
