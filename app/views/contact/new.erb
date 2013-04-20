@@ -1,7 +1,8 @@
 <%= render 'layouts/header' %>
 <% provide(:title, 'Contact') %>
-<div class="form-signin">
-<h2 class="form-signin-heading"> Your opinion please! </h2>
+<div class="content">
+  <div class="box-content round contact">
+<h2 class="form-signin-heading"> Contact us </h2>
 
 <%= form_for @message, :url => contact_path do |form| %>
 
@@ -30,9 +31,10 @@
     </fieldset>
     <fieldset class="actions">
       <center>
-        <%= form.submit "Send", :class => 'btn btn-primary' %>
+        <%= form.submit "Send", :class => 'btn btn-primary btn-large' %>
       </center>
     </fieldset>
 
 <% end %>
          </div>
+</div>

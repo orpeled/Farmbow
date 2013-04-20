@@ -1,59 +1,41 @@
 <%= render 'layouts/header' %>
-
-<div class="span2">
-  <img src="/assets/tomato.png">
-  <div class="span5"></div>
-</div>
-<div class="span9">
-
-  <h1> Welcome to Farmbow!</h1>
-  <br>
+<div class="content">
+<div class="main-content round">
+  <h1>Farmbow</h1>
+  <h2>Connecting Families back to nature</h2>
   <% if user_signed_in? %>
+      <%else%>
 
+      <%= link_to "Login", new_user_session_path, :class => "btn btn-success btn-large" %>
+        <span class="seperate">or</span>
+        <%= link_to "Sign up", new_user_registration_path, :class => "btn btn-primary btn-large" %>
+  <% end %>
+</div>
+<% if user_signed_in? %>
+<div class="main-content span7 round">
+  <div class="main-plants">
+  <% if user_signed_in? %>
       <div>
-
         <% if !current_user.plant.nil? %>
-            <h3> Showing your current plants: </h3>
+            <h2> My Plants </h2>
+            <hr>
             <% Plant.find_all_by_user_id(current_user.id).each do |plant| %>
-                <p>
-
-                  <% plant_name = plant['name'] %>
-                  <% if !plant_name.nil? %>
-                      Plant Name: <%= plant['name'] %>
-                  <% end %>
-                  <% plant_type = plant['type_of_plant'] %>
-                  <% if !plant_type.nil? %>
-                      Plant Type: <%= plant['type_of_plant'] %>
-                  <% end %>
-                  <% plant_irrigation_level = plant['irrigation_level'] %>
-                  <% if !plant_irrigation_level.nil? %>
-                      Plant Water Level: <%= plant['irrigation_level'] %>
-                  <% end %>
-                <h3> Water Level - </h3>
-                <%= progress_bar(plant.irrigation_level.to_i, :color => 'blue', :rounded => true) %> <br>
-                <% if current_user.current_temperature.nil? %>
-                    <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
-                <% else %>
-                    <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
-                        <h4> Temperature is within safe range. </h4>
-                    <% else %>
-                        <h4> Temperature isn't within safe range. </h4>
-                    <% end %>
-                <% end %>
+                <%= render plant, :plant => plant %>
             <%end%>
-            </p>
         <%end%>
-        <% if current_user.current_temperature != 0.0 %>
-            <h4>User Location - <%= current_user.location %>. </h4>
-            <h4>Temperature Reading - <%= current_user.current_temperature.to_s  %> degrees.</h4>
-
-
-
-
-        <% end %>
-  <% else %>
-      <h3> Please Sign in or Sign up!</h3>
-
   <% end %>
   </div>
+  </div>
+</div>
+<div class="main-content span4 round pull-right">
+  <div class="weather">
+    <% if user_signed_in? %>
+    <% if current_user.current_temperature != 0.0 %>
+        <h4>User Location - <%= current_user.location %>. </h4>
+        <h4>Temperature Reading - <%= current_user.current_temperature.to_s  %> degrees.</h4>
+    <% end %>
+    <%end%>
+  </div>
+</div>
+<% end %>
 </div>

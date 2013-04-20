@@ -59,6 +59,6 @@ gem 'css3-progress-bar-rails'
 # gem 'debugger'
 
 group :production do
-  gem 'pg', '0.14.1'
+  #gem 'pg', '0.14.1'
   gem 'exception_notification', '2.6.1' #exception notifier in production
 end
