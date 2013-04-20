@@ -77,10 +77,10 @@ FarmBowWebsite::Application.configure do
   }
 
   #get notified with every exception in production via mail
-  config.middleware.use ExceptionNotifier,
-                        sender_address: 'farmbowinfo@gmail.com',
-                        exception_recipients: 'orppeled@gmail.com',
-                        ignore_exceptions: ExceptionNotifier.default_ignore_exceptions # + [RuntimeError]
+#  config.middleware.use ExceptionNotifier,
+#                        sender_address: 'farmbowinfo@gmail.com',
+#                        exception_recipients: 'orppeled@gmail.com',
+#                        ignore_exceptions: ExceptionNotifier.default_ignore_exceptions # + [RuntimeError]
 
 
   # Log the query plan for queries taking more than this (works

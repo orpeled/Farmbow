@@ -12,9 +12,12 @@ FarmBowWebsite::Application.routes.draw do
   root :to => "static_pages#home" #Devise asked me to.
 
 
-  #Contact Us Form
+  # Contact Us Form
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
+
+  # Fill Water
+  match '/fill_water' => 'plants#fill_water'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -98,4 +98,22 @@ class PlantsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  # Filling water AJAX
+  def fill_water
+    Plant.find_all_by_user_id(current_user.id).each do |plant|
+      plant.irrigation_level=100
+      plant.irrigation_level_updated_at= DateTime.now
+      plant.save!
+    end
+
+    respond_to do |format|
+      format.html {redirect_to home_path}
+      format.js
+    end
+
+
+
+
+  end
 end

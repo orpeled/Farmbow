@@ -35,12 +35,13 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.1.4'
+gem 'jquery-ui-rails'
 
 # Sampling Temperature by location
 gem 'barometer'
 
 # Progress Bar
-gem 'css3-progress-bar-rails'
+#gem 'css3-progress-bar-rails'
 
 
 # To use ActiveModel has_secure_password

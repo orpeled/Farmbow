@@ -32,8 +32,7 @@ class StaticPagesController < ApplicationController
       end
 
       #Lets update the progress bar.
-      Plant.find_all_by_user_id(current_user.id).each do |plant|
-
+       Plant.find_all_by_user_id(current_user.id).each do |plant|
 
         # Should we update bar? (checking if we didn't do so yet)
         time_diff = (Date.today - plant.irrigation_level_updated_at.to_date).to_i

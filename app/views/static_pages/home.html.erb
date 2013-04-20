@@ -29,9 +29,8 @@
                   <% if !plant_irrigation_level.nil? %>
                       Plant Water Level: <%= plant['irrigation_level'] %>
                   <% end %>
-                <h3> Water Level - </h3>
-                <%= progress_bar(plant.irrigation_level.to_i, :color => 'blue', :rounded => true) %> <br>
-                <% if current_user.current_temperature.nil? %>
+
+                  <% if current_user.current_temperature.nil? %>
                     <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
                 <% else %>
                     <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
@@ -41,6 +40,12 @@
                     <% end %>
                 <% end %>
             <%end%>
+
+
+                <h3> Water Level - </h3>
+                <div id="mywaterlevel"></div>
+                <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water', :remote => true, :class => "btn btn-mini btn-primary" %>
+
             </p>
         <%end%>
         <% if current_user.current_temperature != 0.0 %>
