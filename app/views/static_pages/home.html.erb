@@ -43,8 +43,12 @@
 
 
                 <h3> Water Level - </h3>
-                <div id="mywaterlevel"></div>
-                <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water', :remote => true, :class => "btn btn-mini btn-primary" %>
+            <div class="container">
+              <div class="progress progress-striped active">
+                <div class="bar" style="width: 0%;"></div>
+              </div>
+            </div>
+                <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :remote => true, :class => "btn btn-mini btn-primary" %>
 
             </p>
         <%end%>

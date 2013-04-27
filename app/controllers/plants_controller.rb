@@ -106,10 +106,10 @@ class PlantsController < ApplicationController
       plant.irrigation_level_updated_at= DateTime.now
       plant.save!
     end
-
-    respond_to do |format|
+      sleep 2
+   respond_to do |format|
       format.html {redirect_to home_path}
-      format.js
+      format.js {render 'plants.js', formats: :js}
     end
 
 
