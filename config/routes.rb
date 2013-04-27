@@ -1,6 +1,9 @@
 FarmBowWebsite::Application.routes.draw do
 
 
+  resources :user_logs
+
+
   resources :plants
 
 

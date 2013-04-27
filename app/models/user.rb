@@ -33,5 +33,6 @@ class User < ActiveRecord::Base
   #attr_accessible :email, :location, :name, :password, :username
 
   # Relationships
-  has_one :plant, :dependent => :destroy
+  has_many :plants, :dependent => :destroy
+  has_many :user_logs, :dependent => :destroy
 end
