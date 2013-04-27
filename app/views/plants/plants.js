@@ -18,5 +18,5 @@ var progress = setInterval(function() {
     $bar.text($bar.width()/4 + "%");
 }, 800);
 $('a.btn.btn-mini.btn-primary').addClass('active');
-$('a.btn.btn-mini.btn-primary').fadeOut(3000);
+$('a.btn.btn-mini.btn-primary').fadeOut(3000)
 

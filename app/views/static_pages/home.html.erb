@@ -1,40 +1,33 @@
 <%= render 'layouts/header' %>
 <div class="content">
-<div class="main-content round">
-  <h1>Farmbow</h1>
-  <h2>Connecting Families back to nature</h2>
-  <% if user_signed_in? %>
-      <%else%>
+  <div class="main-content round">
+    <h1>Farmbow</h1>
+    <h2>Connecting Families back to nature</h2>
+    <% if user_signed_in? %>
+    <%else%>
 
-      <%= link_to "Login", new_user_session_path, :class => "btn btn-success btn-large" %>
+        <%= link_to "Login", new_user_session_path, :class => "btn btn-success btn-large" %>
         <span class="seperate">or</span>
         <%= link_to "Sign up", new_user_registration_path, :class => "btn btn-primary btn-large" %>
-  <% end %>
-</div>
-<% if user_signed_in? %>
-<div class="main-content span7 round">
-  <div class="main-plants">
-  <% if user_signed_in? %>
-      <div>
-        <% if !current_user.plant.nil? %>
-            <h2> My Plants </h2>
-            <hr>
-            <% Plant.find_all_by_user_id(current_user.id).each do |plant| %>
-                <%= render plant, :plant => plant %>
-            <%end%>
-
-
-                <h3> Water Level - </h3>
-            <div class="container">
-              <div class="progress progress-striped active">
-                <div class="bar" style="width: 0%;"></div>
-              </div>
-            </div>
-                <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :remote => true, :class => "btn btn-mini btn-primary" %>
-
-            </p>
-        <%end%>
-  <% end %>
+    <% end %>
   </div>
-</div>
-   
+
+      <div class="main-content round">
+        <div class="main-plants">
+          <% if user_signed_in? %>
+              <div>
+                <% if !current_user.plant.nil? %>
+                    <h2> My Plants </h2>
+                    <hr>
+                    <% Plant.find_all_by_user_id(current_user.id).each do |plant| %>
+                        <%= render plant, :plant => plant %>
+                    <%end%>
+                    <div class="water_button">
+                      <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
+                    </div>
+                <%end%>
+          <% end %>
+          </div>
+        </div>
+      </div>
+      </div>

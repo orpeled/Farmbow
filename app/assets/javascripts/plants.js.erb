@@ -8,7 +8,7 @@ $('document').ready(function() {
     var progress = setInterval(function() {
         var $bar = $('.bar');
 
-        if ($bar.width()>=<%= Plant.nil? ? 0 : (Plant.first.irrigation_level * 4) %>) {
+        if ($bar.width()>=<%= Plant.nil? ? 0 : Plant.first.irrigation_level * 4 %>) {
             clearInterval(progress);
 
         } else {
@@ -17,19 +17,4 @@ $('document').ready(function() {
         $bar.text($bar.width()/4 + "%");
     }, 800);
 
-    $('fill_water').click(function() {
-        $('.progress').addClass('active');
-        var progress = setInterval(function() {
-            var $bar = $('.bar');
-
-            if ($bar.width()==400) {
-                clearInterval(progress);
-
-            } else {
-                $bar.width($bar.width()+40);
-            }
-            $bar.text($bar.width()/4 + "%");
-        }, 800);
-
-    })
 });
