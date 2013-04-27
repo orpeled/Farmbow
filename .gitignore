@@ -15,4 +15,5 @@
 /tmp
 
 .idea
-.DS_Store
+*.DS_Store
+/assets/javascripts/.DS_Store
