@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130427204257) do
+ActiveRecord::Schema.define(:version => 20130427211327) do
 
   create_table "contact_messages", :force => true do |t|
     t.string   "name"
@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(:version => 20130427204257) do
     t.integer  "user_id",                     :default => 0,                     :null => false
   end
 
-  create_table "user_logs", :force => true do |t|
+  create_table "user_actions", :force => true do |t|
     t.integer  "user_id"
     t.integer  "action_id"
     t.string   "picture_exists"

@@ -34,5 +34,5 @@ class User < ActiveRecord::Base
 
   # Relationships
   has_many :plants, :dependent => :destroy
-  has_many :user_logs, :dependent => :destroy
+  has_many :user_actions, :dependent => :destroy
 end
