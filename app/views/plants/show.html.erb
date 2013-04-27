@@ -1,4 +1,5 @@
 <%- model_class = Plant -%>
+<div class="plants main-content round">
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human %></h1>
 </div>
@@ -38,7 +39,7 @@
   <dd><%= @plant.user_id %></dd>
 </dl>
 
-<div class="form-actions">
+<div>
   <%= link_to t('.back', :default => t("helpers.links.back")),
               plants_path, :class => 'btn'  %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -48,4 +49,5 @@
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+</div>
 </div>
