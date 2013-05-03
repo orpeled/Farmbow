@@ -1,6 +1,14 @@
 FarmBowWebsite::Application.routes.draw do
 
 
+  get "user_action/signed_up"
+
+  get "user_action/uploaded_picture"
+
+  get "user_action/cantacted_us"
+
+  get "user_action/added_water"
+
   resources :plants
 
 
