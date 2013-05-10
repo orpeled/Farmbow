@@ -16,9 +16,12 @@
                 <h4>Plant Type:<%= plant['type_of_plant'] %></h4>
             <% end %>
           </li>
+        <li>
+          <%= image_tag(plant.image_url(:thumb)) %>
+        </li>
       </ul>
 
-        <div class="container">
+        <div class="container span5">
           <div class="progress progress-striped active">
             <div class="bar" style="width: 0%;"></div>
           </div>

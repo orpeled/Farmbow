@@ -20,4 +20,7 @@ class ContactMessage < ActiveRecord::Base
   def persisted?
     false
   end
+
+  include PublicActivity::Model
+  tracked owner: ->(controller, model) { controller && controller.current_user }
 end

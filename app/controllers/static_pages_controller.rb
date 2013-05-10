@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
 
     # get user id - there must be a better way.
     if user_signed_in?
-
+      @user_actions = PublicActivity::Activity.order("created_at desc").where(owner_id: current_user, owner_type: "User").page(params[:page]).per_page(5)
       # getting current user
       user = current_user
 
@@ -20,7 +20,9 @@ class StaticPagesController < ApplicationController
           location_full = (user.location == 'Tel Aviv' ? 'Tel Aviv, Israel' : 'Tampa, Florida')
 
           # New barometer to measure temperature.
+
           barometer = Barometer.new(location_full)
+          Barometer.timeout=1000
           weather = barometer.measure
           current_temp = weather.current.temperature.fahrenheit
 
@@ -31,8 +33,10 @@ class StaticPagesController < ApplicationController
 
       end
 
+      @plant = nil
+
       #Lets update the progress bar.
-       Plant.find_all_by_user_id(current_user.id).each do |plant|
+      Plant.find_all_by_user_id(current_user.id).each do |plant|
 
         # Should we update bar? (checking if we didn't do so yet)
         time_diff = (Date.today - plant.irrigation_level_updated_at.to_date).to_i
@@ -50,7 +54,10 @@ class StaticPagesController < ApplicationController
 
         end
 
+         @plant = plant
       end
+
+
 
     end
   end

@@ -10,6 +10,7 @@ FarmBowWebsite::Application.routes.draw do
   get "user_action/added_water"
 
   resources :plants
+  resources :user_actions
 
 
   #resources :users

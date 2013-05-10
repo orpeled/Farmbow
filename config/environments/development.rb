@@ -48,4 +48,7 @@ FarmBowWebsite::Application.configure do
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
+  ENV['AWS_ACCESS_KEY_ID'] = "AKIAIUZ2HD2UDAS2H6WQ"
+  ENV['AWS_SECRET_ACCESS_KEY'] = "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"
+  ENV['AWS_S3_BUCKET'] = "farmbow-plants"
 end

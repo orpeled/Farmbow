@@ -86,4 +86,8 @@ FarmBowWebsite::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  ENV['AWS_ACCESS_KEY_ID'] = "AKIAIUZ2HD2UDAS2H6WQ"
+  ENV['AWS_SECRET_ACCESS_KEY'] = "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"
+  ENV['AWS_S3_BUCKET'] = "farmbow-plants"
 end

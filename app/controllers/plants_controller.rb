@@ -62,6 +62,7 @@ class PlantsController < ApplicationController
      sleep 3
     respond_to do |format|
       if @plant.save
+        @plant.create_activity :create, owner: current_user
         format.html { redirect_to @plant, notice: 'Plant was successfully created.' }
         format.json { render json: @plant, status: :created, location: @plant }
       else
@@ -75,7 +76,12 @@ class PlantsController < ApplicationController
   # PUT /plants/1.json
   def update
     @plant = Plant.find(params[:id])
+    params[:plant]['name'] = 'bla'
 
+    if(!params[:plant]['image'].nil?)
+      @plant.update_attributes(params[:plant])
+      redirect_to root_path
+    else
     respond_to do |format|
       if @plant.update_attributes(params[:plant])
         format.html { redirect_to @plant, notice: 'Plant was successfully updated.' }
@@ -85,13 +91,16 @@ class PlantsController < ApplicationController
         format.json { render json: @plant.errors, status: :unprocessable_entity }
       end
     end
+    end
   end
 
   # DELETE /plants/1
   # DELETE /plants/1.json
   def destroy
     @plant = Plant.find(params[:id])
+    @plant.create_activity :destroy, owner: current_user
     @plant.destroy
+
 
     respond_to do |format|
       format.html { redirect_to plants_url }
@@ -105,6 +114,7 @@ class PlantsController < ApplicationController
       plant.irrigation_level=100
       plant.irrigation_level_updated_at= DateTime.now
       plant.save!
+      @plant.create_activity :added_water, owner: current_user
     end
       sleep 2
    respond_to do |format|

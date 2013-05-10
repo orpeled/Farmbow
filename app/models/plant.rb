@@ -19,6 +19,18 @@
 #sun_info:text - A description regarding how to treat the plant sun wise
 
 class Plant < ActiveRecord::Base
-  attr_accessible :fertilizer_frequency, :fertilizer_quantity, :initial_plant_info, :irrigation_frequency, :irrigation_info, :irrigation_level, :irrigation_quantity, :name, :safe_temp_max, :safe_temp_min, :sun_info, :sun_level, :temperature_info, :type_of_plant, :irrigation_level_updated_at
+
+  mount_uploader :image, FileUploader
+
+  attr_accessible :fertilizer_frequency, :fertilizer_quantity,
+                  :initial_plant_info, :irrigation_frequency, :irrigation_info,
+                  :irrigation_level, :irrigation_quantity, :name, :safe_temp_max,
+                  :safe_temp_min, :sun_info, :sun_level, :temperature_info, :type_of_plant,
+                  :irrigation_level_updated_at, :image
+
   belongs_to :user
+  include PublicActivity::Common
+  #tracked except: :update, owner: ->(controller, model) { controller && controller.current_user }
+
+
 end

@@ -27,22 +27,18 @@
                         <div class="water_button">
                           <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
                         </div>
+                        <div class="something">
+                          <%= form_for @plant do |f| %>
+                              <%= f.text_field :name %>
+                              <%= f.file_field :image %>
+                              <div class="form-actions">
+                                <%= f.submit %>
+                              </div>
+                          <% end %>
+                        </div>
                     <%end%>
                 <% end %>
-                <div id="pagination">
-                  <% if UserAction.any? %>
-                      <% provide(:title, 'My Actions') %>
-                      <h1>All Actions</h1>
-                      <%= will_paginate @user_actions%>
-                      <ul class="user_actions">
-
-                        <% UserAction.each do |user| %>
-                            <%= render @user_actions %>
-                        <% end %>
-                  <% end %>
-                  </ul>
-
-                </div>
+                <%= ajax_section :id => "pagination", :render => "user_actions/index" %>
             <% end %>
       <% end %>
       </div>
