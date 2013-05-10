@@ -18,12 +18,10 @@
 
                 <div class="user_action">
                   <td><%= link_to user_action.owner.name, user_action.owner if user_action.owner %></td>
-                  <td><%= render_activity user_action %></td>
+                  <td><p><%= render_activity user_action %></p></td>
                 </div>
               </tr>
 
-
-              <br />
           <% end %>
       </table>
 

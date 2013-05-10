@@ -5,3 +5,8 @@ Email: <%= @message.email %>
 Subject: <%= @message.subject %>
 
 Body: <%= @message.body %>
+
+<% if !@message.contact_image.nil? %>
+Photo:
+    <%= @message.contact_image %>
+<% end %>

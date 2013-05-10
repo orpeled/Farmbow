@@ -121,6 +121,8 @@ a.btn {
   background-color: transparent;
 }
 
+
+
 .plants.new{
   .form-horizontal .control-group {
     label, input, select{
@@ -164,6 +166,10 @@ ul.plant-details {
     float: none;
   }
 }
+.water_button{
+  float:left;
+
+}
 
 .weather {
   padding: 15px;
@@ -179,3 +185,4 @@ ul.plant-details {
   border: 1px solid #d3d3d3;
   border-radius: 5px;
 }
+

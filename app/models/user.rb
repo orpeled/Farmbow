@@ -38,5 +38,5 @@ class User < ActiveRecord::Base
   has_many :user_actions, :dependent => :destroy
 
   include PublicActivity::Model
-  tracked except: :update
+  tracked except: :update, owner: ->(controller, model) { controller && controller.current_user }
 end

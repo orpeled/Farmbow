@@ -7,13 +7,21 @@ class ContactController < ApplicationController
   def create
     @message = ContactMessage.new(params[:contact_message])
 
-    if @message.valid?
-      NotificationsMailer.new_message(@message).deliver
-      redirect_to(root_path, :notice => "Message was successfully sent.")
-    else
-      @message.errors
-      render :new
+    #if(!params[:contact_message]['contact_image'].nil?)
+    #  @message.update_attributes(params[:contact_message])
+    #end
+
+
+    if @message.valid? and @message.save
+      #if @message.save
+        current_user.create_activity key: 'contact.create'
+        NotificationsMailer.new_message(@message).deliver
+        redirect_to(root_path, :notice => "Message was successfully sent.")
+      else
+        @message.errors
+        render :new
+      #end
     end
 
-    end
   end
+end

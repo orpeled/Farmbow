@@ -28,13 +28,17 @@
                             <div class="water_button">
                             <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
                             </div>
-                            <div class="something">
+                            <div class="upload_photo main-content box-content round">
+                              <h4>Plant Profile Pic</h4>
                             <%= form_for @plant do |f| %>
+                                  <%= f.label :plant_name %>
+                                  <%= select_tag :search_state, options_from_collection_for_select(Plant.find_all_by_user_id(current_user.id), :id, :name) %>
                                   <%= f.file_field :image %>
                                   <div class="form-actions">
-                                   <%= f.submit %>
+                                   <%= f.submit class: "btn-primary" %>
                                   </div>
                             <% end %>
+
                             </div>
                         <%end%>
                     <% end %>

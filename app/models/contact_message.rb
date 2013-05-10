@@ -12,7 +12,8 @@
 #
 
 class ContactMessage < ActiveRecord::Base
-  attr_accessible :name, :email, :subject, :body
+  attr_accessible :name, :email, :subject, :body, :contact_image
+  mount_uploader :contact_image, FileUploader
 
   validates :name, :subject, :body, :presence => true
   validates :email, :format => { :with => %r{.+@.+\..+} }, :presence => true
@@ -22,5 +23,5 @@ class ContactMessage < ActiveRecord::Base
   end
 
   include PublicActivity::Model
-  tracked owner: ->(controller, model) { controller && controller.current_user }
+  #tracked
 end

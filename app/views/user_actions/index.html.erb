@@ -1,21 +1,10 @@
 <h1>Listing Activities</h1>
 
 <table>
-  <tr>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
   <%= will_paginate @user_actions %>
 <% @user_actions.each do |user_action| %>
 
-      <tr>
-
-    <div class='user_action'>
-      <td><%= link_to user_action.owner.name, user_action.owner if user_action.owner %></td>
-      <td><%= render_activity user_action %></td>
-    </div>
-  </tr>
+    <%= user_action.inspect %>
 <% end %>
 
 </table>

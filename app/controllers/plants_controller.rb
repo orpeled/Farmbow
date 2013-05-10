@@ -75,7 +75,13 @@ class PlantsController < ApplicationController
   # PUT /plants/1
   # PUT /plants/1.json
   def update
-    @plant = Plant.find(params[:id])
+
+    # Check if the form had a choice of plant (combo box)
+    if !params[:search_state].nil?
+      @plant = Plant.find(params[:search_state])
+    else
+      @plant = Plant.find(params[:id])
+    end
     if(!params[:plant]['image'].nil?)
       @plant.update_attributes(params[:plant])
       redirect_to root_path
@@ -114,6 +120,7 @@ class PlantsController < ApplicationController
       plant.save!
     end
    respond_to do |format|
+      current_user.create_activity key: 'plant.fill_water'
       format.html {redirect_to home_path}
       format.js {render 'plants.js', formats: :js}
     end
