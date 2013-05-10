@@ -1,6 +1,0 @@
-module Action
-  CREATED_ACCOUNT = 1
-  UPLOADED_PICTURE = 2
-  CONTACTED_US = 3
-  ADDED_WATER = 4
-  end

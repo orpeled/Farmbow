@@ -214,6 +214,7 @@ DEPENDENCIES
   exception_notification (= 2.6.1)
   faker (= 1.0.1)
   fog
+  jquery-historyjs
   jquery-rails (= 2.1.4)
   jquery-ui-rails
   less-rails (= 2.3.2)

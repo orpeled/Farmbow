@@ -1,6 +1,13 @@
 <div class="row">
   <div class="plant-image span1 ">
-    <%= image_tag("default-tomato.png") %>
+    <li>
+      <% plant_image = plant['image'] %>
+      <% if !plant_image.nil? %>
+          <%= image_tag(plant.image_url(:thumb)) %>
+      <% else %>
+        <%= image_tag("default-tomato.png") %>
+      <% end %>
+    </li>
   </div>
   <div class="span5">
       <ul class="plant-details row">
@@ -16,29 +23,28 @@
                 <h4>Plant Type:<%= plant['type_of_plant'] %></h4>
             <% end %>
           </li>
-        <li>
-          <%= image_tag(plant.image_url(:thumb)) %>
-        </li>
-      </ul>
+
 
         <div class="container span5">
           <div class="progress progress-striped active">
             <div class="bar" style="width: 0%;"></div>
           </div>
         </div>
+        <div class="temprature row">
+          <% if current_user.current_temperature.nil? %>
+              <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
+          <% else %>
+              <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
+                  <p> Temp. OK </p>
+              <% else %>
+                  <p> Temp. not OK </p>
+              <% end %>
+          <% end %>
+        </div>
+      </ul>
       </div>
   </div>
 </div>
-<div class="temprature row">
-  <% if current_user.current_temperature.nil? %>
-    <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
-<% else %>
-    <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
-        <h4> Temperature is within safe range. </h4>
-    <% else %>
-        <h4> Temperature isn't within safe range. </h4>
-    <% end %>
-<% end %>
-</div>
+
 
 

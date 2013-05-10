@@ -98,7 +98,7 @@ class PlantsController < ApplicationController
   # DELETE /plants/1.json
   def destroy
     @plant = Plant.find(params[:id])
-    @plant.create_activity :destroy, owner: current_user
+    #@plant.create_activity :destroy, owner: current_user
     @plant.destroy
 
 
@@ -114,9 +114,7 @@ class PlantsController < ApplicationController
       plant.irrigation_level=100
       plant.irrigation_level_updated_at= DateTime.now
       plant.save!
-      @plant.create_activity :added_water, owner: current_user
     end
-      sleep 2
    respond_to do |format|
       format.html {redirect_to home_path}
       format.js {render 'plants.js', formats: :js}
