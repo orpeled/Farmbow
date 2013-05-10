@@ -29,8 +29,8 @@ class Plant < ActiveRecord::Base
                   :irrigation_level_updated_at, :image
 
   belongs_to :user
-  include PublicActivity::Common
-  #tracked except: :update, owner: ->(controller, model) { controller && controller.current_user }
+  include PublicActivity::Model
+  tracked except: :update, owner: ->(controller, model) { controller && controller.current_user }
 
 
 end

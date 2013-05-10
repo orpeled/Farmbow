@@ -21,23 +21,24 @@
                     <% if !current_user.plants.nil? %>
                         <h2> My Plants </h2>
                         <hr>
-                        <% Plant.find_all_by_user_id(current_user.id).each do |plant| %>
-                            <%= render plant, :plant => plant %>
+                        <% if Plant.any? %>
+                            <% current_user.plants.each do |plant| %>
+                                <%= render plant, :plant => plant %>
+                            <% end %>
+                            <div class="water_button">
+                            <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
+                            </div>
+                            <div class="something">
+                            <%= form_for @plant do |f| %>
+                                  <%= f.file_field :image %>
+                                  <div class="form-actions">
+                                   <%= f.submit %>
+                                  </div>
+                            <% end %>
+                            </div>
                         <%end%>
-                        <div class="water_button">
-                          <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
-                        </div>
-                        <div class="something">
-                          <%= form_for @plant do |f| %>
-                              <%= f.text_field :name %>
-                              <%= f.file_field :image %>
-                              <div class="form-actions">
-                                <%= f.submit %>
-                              </div>
-                          <% end %>
-                        </div>
-                    <%end%>
-                <% end %>
+                    <% end %>
+                    <% end %>
                 <%= ajax_section :id => "pagination", :render => "user_actions/index" %>
 
           <% end %>

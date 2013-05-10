@@ -59,10 +59,10 @@ class PlantsController < ApplicationController
   # POST /plants.json
   def create
     @plant = Plant.new(params[:plant])
-     sleep 3
+     #sleep 3
     respond_to do |format|
       if @plant.save
-        @plant.create_activity :create, owner: current_user
+        #@plant.create_activity :create, owner: current_user
         format.html { redirect_to @plant, notice: 'Plant was successfully created.' }
         format.json { render json: @plant, status: :created, location: @plant }
       else
@@ -76,8 +76,6 @@ class PlantsController < ApplicationController
   # PUT /plants/1.json
   def update
     @plant = Plant.find(params[:id])
-    params[:plant]['name'] = 'bla'
-
     if(!params[:plant]['image'].nil?)
       @plant.update_attributes(params[:plant])
       redirect_to root_path
@@ -119,9 +117,5 @@ class PlantsController < ApplicationController
       format.html {redirect_to home_path}
       format.js {render 'plants.js', formats: :js}
     end
-
-
-
-
   end
 end

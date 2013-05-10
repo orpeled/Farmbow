@@ -11,6 +11,7 @@ FarmBowWebsite::Application.routes.draw do
 
   resources :plants
   resources :user_actions
+  resources :activities
 
 
   #resources :users

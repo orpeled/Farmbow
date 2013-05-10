@@ -5,6 +5,7 @@ class StaticPagesController < ApplicationController
 
     # get user id - there must be a better way.
     if user_signed_in?
+      #@plant = nil
       @user_actions = PublicActivity::Activity.order("created_at desc").where(owner_id: current_user, owner_type: "User").page(params[:page]).per_page(5)
       # getting current user
       user = current_user
@@ -33,29 +34,34 @@ class StaticPagesController < ApplicationController
 
       end
 
-      @plant = nil
+      #@plant = nil
 
       #Lets update the progress bar.
-      Plant.find_all_by_user_id(current_user.id).each do |plant|
+      puts "hi"
+      if Plant.any?
+        current_user.plants.each do |this_plant|
 
-        # Should we update bar? (checking if we didn't do so yet)
-        time_diff = (Date.today - plant.irrigation_level_updated_at.to_date).to_i
+          # Should we update bar? (checking if we didn't do so yet)
+          time_diff = (Date.today - this_plant.irrigation_level_updated_at.to_date).to_i
 
-        if time_diff >= 1
-          should_water_every = plant.irrigation_frequency.nil? ? 1 : plant.irrigation_frequency
-          each_day_equals_percentage = 100 / should_water_every
-          result_of_decreasing = plant.irrigation_level - (each_day_equals_percentage * time_diff)
-          if result_of_decreasing < 0.0
-            result_of_decreasing = 0
+          if time_diff >= 1
+            should_water_every = this_plant.irrigation_frequency.nil? ? 1 : this_plant.irrigation_frequency
+            each_day_equals_percentage = 100 / should_water_every
+            result_of_decreasing = this_plant.irrigation_level - (each_day_equals_percentage * time_diff)
+            if result_of_decreasing < 0.0
+              result_of_decreasing = 0
+            end
+            this_plant.irrigation_level= result_of_decreasing
+            this_plant.irrigation_level_updated_at= DateTime.now
+            this_plant.save!
+
           end
-          plant.irrigation_level= result_of_decreasing
-          plant.irrigation_level_updated_at= DateTime.now
-          plant.save!
+
 
         end
-
-         @plant = plant
+        @plant = current_user.plants.first
       end
+
 
 
 
