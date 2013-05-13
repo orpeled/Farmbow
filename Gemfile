@@ -72,6 +72,6 @@ gem 'rmagick', '2.13.2'
 gem 'fog'
 
 group :production do
-  #gem 'pg', '0.14.1'
+  gem 'pg', '0.14.1'
   gem 'exception_notification', '2.6.1' #exception notifier in production
 end
