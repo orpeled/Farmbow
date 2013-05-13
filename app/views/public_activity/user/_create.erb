@@ -1,8 +1,5 @@
-User named
-
-<% if activity.trackable %>
-    <%= link_to activity.trackable.name, activity.trackable %>
+<% if activity.trackable and not activity.trackable.name.nil?%>
+    <%= link_to activity.trackable.name, activity.trackable %> has registered to the site!
 <% else %>
-    which has since been removed
+    Anonymous user registered!
 <% end %>
-has registered to the site!

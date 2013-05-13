@@ -6,12 +6,16 @@ class StaticPagesController < ApplicationController
     # get user id - there must be a better way.
     if user_signed_in?
       #@plant = nil
-      @user_actions = PublicActivity::Activity.order("created_at desc").where(owner_id: current_user, owner_type: "User").page(params[:page]).per_page(5)
+      @user_actions = PublicActivity::Activity.order("created_at desc").page(params[:page]).per_page(5)
       # getting current user
       user = current_user
 
+      # case user is new, refresh now.
       # refresh every 10 seconds.
-      if Time.now - user.updated_at > 10.minutes
+      should_user_update_temp = Time.now - user.updated_at < 3.minutes
+      is_new_user = Time.now - user.created_at.to_time < 2.minutes
+
+      if  should_user_update_temp or is_new_user
 
         if user.location.nil?
           puts 'please modify your location !'

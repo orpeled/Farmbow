@@ -19,39 +19,40 @@
             <% if current_user %>
                 <% if current_user.plants %>
                     <% if !current_user.plants.nil? %>
-                        <h2> My Plants </h2>
-                        <hr>
-                        <% if Plant.any? %>
-                                <div id="water_for_progressbar" hidden="true">
-                                  <%= current_user.plants.first.irrigation_level.nil? ?
+                        <% if current_user.plants.any? %>
+                            <h2> My Plants </h2>
+                            <hr>
+                            <div id="water_for_progressbar" hidden="true">
+                              <%= current_user.plants.first.irrigation_level.nil? ?
                                           0 : current_user.plants.first.irrigation_level  %>
-                                </div>
-                                <% current_user.plants.each do |plant| %>
-                                    <%= render plant, :plant => plant %>
+                            </div>
+                            <% current_user.plants.each do |plant| %>
+                                <%= render plant, :plant => plant %>
                             <% end %>
 
                             <div class="water_button">
-                            <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
+                              <%= link_to "Fill Water", {:action => "fill_water", :controller => "plants"}, :id => 'fill_water' , :remote => true, :class => "btn btn-large btn-primary" %>
                             </div>
                             <div class="upload_photo main-content box-content round">
                               <h4>Plant Profile Pic</h4>
-                            <%= form_for current_user.plants.first do |f| %>
+                              <%= form_for current_user.plants.first do |f| %>
                                   <%= f.label :plant_name %>
                                   <%= select_tag :search_state, options_from_collection_for_select(Plant.find_all_by_user_id(current_user.id), :id, :name) %>
                                   <%= f.file_field :image %>
                                   <div class="form-actions">
-                                   <%= f.submit class: "btn-primary" %>
+                                    <%= f.submit class: "btn-primary" %>
                                   </div>
-                            <% end %>
-                                 <h3> <%= current_user.current_temperature %></h3>
+                              <% end %>
+                              <h3> <%= current_user.current_temperature %></h3>
                             </div>
-                        <%end%>
+                        <% end %>
                     <% end %>
-                    <% end %>
-                <%= ajax_section :id => "pagination", :render => {:partial => "user_actions/index"} %>
+                <% end %>
 
-          <% end %>
+            <%= ajax_section :id => "pagination", :render => {:partial => "user_actions/index"} %>
+            <% end %>
       <% end %>
+
       </div>
     </div>
   </div>

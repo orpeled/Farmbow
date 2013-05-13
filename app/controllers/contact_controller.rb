@@ -14,7 +14,9 @@ class ContactController < ApplicationController
 
     if @message.valid? and @message.save
       #if @message.save
-        current_user.create_activity key: 'contact.create'
+        unless current_user.nil?
+          current_user.create_activity key: 'contact.create'
+        end
         NotificationsMailer.new_message(@message).deliver
         redirect_to(root_path, :notice => "Message was successfully sent.")
       else

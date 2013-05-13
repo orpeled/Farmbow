@@ -1,53 +1,55 @@
-<div class="row">
-  <div class="plant-image span1 ">
-    <li>
-      <% plant_image = plant['image'] %>
-      <% if !plant_image.nil? %>
-          <%= image_tag(plant.image_url(:thumb)) %>
-      <% else %>
-        <%= image_tag("default-tomato.png") %>
-      <% end %>
-    </li>
-  </div>
-  <div class="span5">
-      <ul class="plant-details row">
-          <li>
-            <% plant_name = plant['name'] %>
-            <% if !plant_name.nil? %>
-                <h4>Plant Name:<%= plant['name'] %></h4>
-            <% end %>
-          </li>
-          <li>
-            <% plant_type = plant['type_of_plant'] %>
-            <% if !plant_type.nil? %>
-                <h4>Plant Type:<%= plant['type_of_plant'] %></h4>
-            <% end %>
-          </li>
+<% if current_user %>
+    <% if current_user.plants.any? %>
+        <div class="row">
+          <div class="plant-image span1 ">
+            <li>
+              <% plant_image = plant['image'] %>
+              <% if !plant_image.nil? %>
+                  <%= image_tag(plant.image_url(:thumb)) %>
+              <% else %>
+                  <%= image_tag("default-tomato.png") %>
+              <% end %>
+            </li>
+          </div>
+          <div class="span5">
+            <ul class="plant-details row">
+              <li>
+                <% plant_name = plant['name'] %>
+                <% if !plant_name.nil? %>
+                    <h4>Plant Name:<%= plant['name'] %></h4>
+                <% end %>
+              </li>
+              <li>
+                <% plant_type = plant['type_of_plant'] %>
+                <% if !plant_type.nil? %>
+                    <h4>Plant Type:<%= plant['type_of_plant'] %></h4>
+                <% end %>
+              </li>
 
 
-        <div class="container span5">
-          <div class="progress progress-striped active">
-            <div class="bar" style="width: 0%;"></div>
+              <div class="container span5">
+                <div class="progress progress-striped active">
+                  <div class="bar" style="width: 0%;"></div>
+                </div>
+              </div>
+              <div class="temperature_row">
+                <% if current_user.current_temperature.nil? %>
+                    <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
+                <% else %>
+                    <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
+                        <p> Temperature OK </p>
+                    <% else if current_user.current_temperature > plant.safe_temp_max %>
+                            <p> Add extra water.  Its very hot today. </p>
+                        <% else %>
+                            <p> It's a bit chilly but I'll be fine. </p>
+                        <% end %>
+                    <% end %>
+                <% end %>
+              </div>
+            </ul>
           </div>
         </div>
-        <div class="temperature_row">
-          <% if current_user.current_temperature.nil? %>
-              <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
-          <% else %>
-              <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
-                  <p> Temperature OK </p>
-              <% else if current_user.current_temperature > plant.safe_temp_max %>
-                  <p> Add extra water.  Its very hot today. </p>
-              <% else %>
-                  <p> It's a bit chilly but I'll be fine. </p>
-              <% end %>
-              <% end %>
-          <% end %>
         </div>
-      </ul>
-      </div>
-  </div>
-</div>
-
-
+    <% end %>
+<% end %>
 

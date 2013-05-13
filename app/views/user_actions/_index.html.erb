@@ -1,4 +1,6 @@
-<h1>Listing Activities</h1>
+<% if PublicActivity::Activity.any? %>
+    <h2>Live Feed</h2>
+<% end %>
 
 <table>
   <tr>

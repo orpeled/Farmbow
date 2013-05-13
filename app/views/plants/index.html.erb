@@ -6,7 +6,8 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:plant) %></th>
+      <th><%= model_class.human_attribute_name(:user) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:type_of_plant) %></th>
       <th><%= model_class.human_attribute_name(:initial_plant_info) %></th>
@@ -30,6 +31,7 @@
     <% @plants.each do |plant| %>
       <tr>
         <td><%= link_to plant.id, plant_path(plant) %></td>
+        <td><%= plant.user_id %></td>
         <td><%= plant.name %></td>
         <td><%= plant.type_of_plant %></td>
         <td><%= plant.initial_plant_info %></td>

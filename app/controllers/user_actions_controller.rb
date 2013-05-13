@@ -13,7 +13,9 @@ class UserActionsController < ApplicationController
   end
 
   def index
-    @user_actions = PublicActivity::Activity.order("created_at desc").page(params[:page]).per_page(8)
+
+    @user_actions = PublicActivity::Activity.order("created_at desc").all.page(params[:page]).per_page(8)
+
     #@user_actions = PublicActivity::Activity.order("created_at desc").where(owner_id: current_user, owner_type: "User").page(params[:page]).per_page(5)
     #@user_actions = UserAction.find_all_by_user_id(current_user.id).order("created_at").page(params[:page]).per_page(5)         #User_actions ?  check this and home.html.
 
