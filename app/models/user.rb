@@ -34,7 +34,6 @@ class User < ActiveRecord::Base
 
   # Relationships
   has_many :plants, :dependent => :destroy
-  has_many :contact_messages, :dependent => :destroy
   has_many :user_actions, :dependent => :destroy
 
   include PublicActivity::Model
