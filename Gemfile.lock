@@ -126,6 +126,7 @@ GEM
     net-ssh (2.6.7)
     nokogiri (1.5.9)
     orm_adapter (0.4.0)
+    pg (0.14.1)
     polyglot (0.3.3)
     public_activity (1.0.3)
       actionpack (~> 3.0)
@@ -218,6 +219,7 @@ DEPENDENCIES
   jquery-rails (= 2.1.4)
   jquery-ui-rails
   less-rails (= 2.3.2)
+  pg (= 0.14.1)
   public_activity (= 1.0.3)
   rails (= 3.2.9)
   rmagick (= 2.13.2)
