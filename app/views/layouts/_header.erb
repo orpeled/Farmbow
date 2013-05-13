@@ -6,19 +6,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="/">Farmbow</a>
+      <a class="brand" href="/"> <%= image_tag("farmbow-logo copy.png") %></a>
       <div class="nav-collapse">
         <ul class="nav">
 
           <% if user_signed_in? %>
-              <li><%= link_to "Add Plants", plants_path %></li>
-              <li><%= link_to 'Edit profile', edit_user_registration_path %> </li>
-              <li><%= link_to "Logout", destroy_user_session_path, method: :delete %> </li>
+              <li style="padding-top: 1em;"><%= link_to "Add Plants", plants_path %></li>
+              <li style="padding-top: 1em;"><%= link_to 'Edit profile', edit_user_registration_path %> </li>
+              <li style="padding-top: 1em;"><%= link_to "Logout", destroy_user_session_path, method: :delete %> </li>
           <% else %>
               <li><%= link_to "Sign up", new_user_registration_path %> </li>
               <li><%= link_to "Login", new_user_session_path %> </li>
           <% end %>
-          <li><%= link_to "Contact Us", contact_path %></li>
+          <li style="padding-top: 1em;"><%= link_to "Contact Us", contact_path %></li>
         </ul>
       </div>
 

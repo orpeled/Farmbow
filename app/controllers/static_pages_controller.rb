@@ -11,7 +11,7 @@ class StaticPagesController < ApplicationController
       user = current_user
 
       # refresh every 10 seconds.
-      if Time.now - user.updated_at > 4.minutes
+      if Time.now - user.updated_at > 10.minutes
 
         if user.location.nil?
           puts 'please modify your location !'
@@ -37,7 +37,6 @@ class StaticPagesController < ApplicationController
       #@plant = nil
 
       #Lets update the progress bar.
-      puts "hi"
       if Plant.any?
         current_user.plants.each do |this_plant|
 

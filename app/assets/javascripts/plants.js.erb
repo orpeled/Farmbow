@@ -1,7 +1,7 @@
 //# Place all the behaviors and hooks related to the matching controller here.
 //# All this logic will automatically be available in application.js.
 //# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
-$(window).load(function() {
+$(document).ready(function() {
 //    $("mywaterlevel").progressbar();
 //    $("mywaterlevel").progressbar( "option", "disabled", true);
 //    $("mywaterlevel").progressbar({ value: 50 });
@@ -10,8 +10,9 @@ $(window).load(function() {
 
     var progress = setInterval(function() {
         var $bar = $('.bar');
+        var water_level = parseInt($('#water_for_progressbar').text(), 10);
 
-        if ($bar.width()>=<%= Plant.nil? ? 0 : Plant.first.irrigation_level * 4 %>) {
+        if ($bar.width()>= (water_level * 4)) {
             clearInterval(progress);
 
         } else {

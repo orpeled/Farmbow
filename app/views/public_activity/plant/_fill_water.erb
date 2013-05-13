@@ -1,8 +1,5 @@
- has put water in his plant named
-
-<% if activity.trackable %>
-    <%= link_to activity.trackable.name, activity.trackable %>
-<% else %>
-    which has since been removed
+ has irrigated his plants just now!
+<% if !activity.trackable %>
+    - entry removed
 <% end %>
- just now!
+

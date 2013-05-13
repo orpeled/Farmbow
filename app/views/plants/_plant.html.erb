@@ -30,14 +30,17 @@
             <div class="bar" style="width: 0%;"></div>
           </div>
         </div>
-        <div class="temprature row">
+        <div class="temperature_row">
           <% if current_user.current_temperature.nil? %>
               <h4> Couldn't read temperature just yet. please wait and refresh.</h4>
           <% else %>
               <% if (current_user.current_temperature >= plant.safe_temp_min) and (current_user.current_temperature <= plant.safe_temp_max) %>
-                  <p> Temp. OK </p>
+                  <p> Temperature OK </p>
+              <% else if current_user.current_temperature > plant.safe_temp_max %>
+                  <p> Add extra water.  Its very hot today. </p>
               <% else %>
-                  <p> Temp. not OK </p>
+                  <p> It's a bit chilly but I'll be fine. </p>
+              <% end %>
               <% end %>
           <% end %>
         </div>

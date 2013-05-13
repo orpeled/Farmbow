@@ -84,6 +84,7 @@ class PlantsController < ApplicationController
     end
     if(!params[:plant]['image'].nil?)
       @plant.update_attributes(params[:plant])
+      current_user.create_activity key: 'plant.profile_pic'
       redirect_to root_path
     else
     respond_to do |format|
