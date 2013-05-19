@@ -1,24 +1,27 @@
 <div class="content">
-    <div class="box-content round">
-<h2>Sign up</h2>
+  <div class="box-content round">
+    <h2>Sign up</h2>
 
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
 
-  <div><%= f.label :email %>
-  <%= f.email_field :email %></div>
-      <br />
-  <div><%= f.label :password %>
-  <%= f.password_field :password %></div>
-      <br />
-  <div><%= f.label :password_confirmation %>
-  <%= f.password_field :password_confirmation %></div>
-      <br />
-  <div class="bottom-content">
-  <div><%= f.submit "Sign up", :class => 'btn btn-primary btn-large' %></div>
-      <%= render "devise/shared/links" %>
+        <div><%= f.label :email %>
+          <%= f.email_field :email %></div>
+        <br />
+        <div><%= f.label :location %>
+          <%= f.select :location, options_for_select([["Tel-Aviv, Israel", "Tel Aviv"], ["Tampa, Florida", "Florida"]]) %></div>
+        <br />
+        <div><%= f.label :password %>
+          <%= f.password_field :password %></div>
+        <br />
+        <div><%= f.label :password_confirmation %>
+          <%= f.password_field :password_confirmation %></div>
+        <br />
+        <div class="bottom-content">
+          <div><%= f.submit "Sign up", :class => 'btn btn-primary btn-large' %></div>
+          <%= render "devise/shared/links" %>
+        </div>
+    <% end %>
   </div>
-<% end %>
-      </div>
 </div>
 
